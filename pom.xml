@@ -59,7 +59,8 @@
                         <versionTagPrefix>version/</versionTagPrefix>
                     </flowInitContext>
                     <squash>true</squash>
-                    <scmCommentPrefix>[RELEASE]</scmCommentPrefix>
+                    <noDeploy>true</noDeploy>
+                    <scmCommentPrefix>[RELEASE] </scmCommentPrefix>
                 </configuration>
             </plugin>
             <plugin>
